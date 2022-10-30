@@ -18,7 +18,7 @@
 
 //------------------------------------------------------------------------------
 static constexpr const char* const c_clink_header =
-    "Clink build by BSOS\n"
+    "Clink build by BSOS-TOP\n"
     ;
 
 static constexpr const char* const c_clink_header_abbr =
