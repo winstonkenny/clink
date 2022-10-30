@@ -21,7 +21,7 @@ local function concat_error(specific, general)
 end
 
 --------------------------------------------------------------------------------
-settings.add("clink.autoupdate", true, "Auto-update the Clink program files", "When enabled, periodically checks for updates for the Clink program files.") -- luacheck: no max line length
+settings.add("clink.autoupdate", false, "Auto-update the Clink program files", "When enabled, periodically checks for updates for the Clink program files.") -- luacheck: no max line length
 settings.add("clink.update_interval", 5, "Days between update checks", "The Clink autoupdater will wait this many days between update checks.") -- luacheck: no max line length
 
 --------------------------------------------------------------------------------
